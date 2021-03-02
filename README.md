@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About Pasos
+Los pasos para implementar este proyecto localmente son:
+
+Instalando dependencias:
+-Lo primero que debes hacer luego de descargar un proyecto existente a tu maquina local, es instalar las dependencias del proyecto con Composer.
+composer install
+{% filename %}composer install{% endfilename %}
+-Archivo de configuración de Laravel: Cada nuevo proyecto con Laravel, por defecto tiene un archivo .env con los datos de configuración necesarios para el mismo, cuando utilizamos un sistema de control de versiones como git, este archivo se excluye del repositorio por medidas de seguridad.
+{% filename %}cp .env.example .env{% endfilename %}
+-Creando un nuevo API key. Por medidas de seguridad cada proyecto de Laravel cuenta con una clave única que se crea en el archivo .env al iniciar el proyecto. En caso de que el desarrollador no te haya proporcionado están información, puedes generar una nueva API key desde la consola usando:
+{% filename %}php artisan key:generate{% endfilename %}
+
+Listo ya puedes iniciar tu proyecto con el comando:
+{% filename %}php artisan serve{% endfilename %}
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
