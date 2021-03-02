@@ -9,6 +9,8 @@ composer install`composer install`
 - Creando un nuevo API key. Por medidas de seguridad cada proyecto de Laravel cuenta con una clave única que se crea en el archivo .env al iniciar el proyecto. En caso de que el desarrollador no te haya proporcionado están información, puedes generar una nueva API key desde la consola usando:`php artisan key:generate`
 
 Listo ya puedes iniciar tu proyecto con el comando:  `php artisan serve`
+### Importante!!!!!
+Tener en cuenta la configuracion de la base de datos y el envio de los email (en el .env).
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
