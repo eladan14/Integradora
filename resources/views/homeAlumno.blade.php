@@ -32,9 +32,8 @@
           <h5 class="card-title mt-3 mb-3">{{$curso->nombre}}</h5>
           <p class="card-text lenguage">{{$curso->inicio}}</p>
           <p class="card-text">{{$curso->fin}}</p>
-          <p class="card-text">{{$curso->_id}}</p>
           <form action="" method="post">
-            <a class="btn btn-warning btn-sm" href="{{route('verCurso',$curso->_id)}}">Ver curso..</a>
+            <a class="btn btn-warning btn-sm" href="{{route('verCurso',$curso->_id,$curso->)}}">Ver curso..</a>
           </form>
         </div>
       </div>
