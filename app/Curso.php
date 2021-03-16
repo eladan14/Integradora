@@ -2,7 +2,11 @@
 namespace App;
 
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
-
+/**
+* Descripción: 
+* Autor: 
+* Fecha: 
+*/
 class Curso extends Eloquent{
 	protected $connection = 'mongodb';
 	protected $collection = 'cursos';
