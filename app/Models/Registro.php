@@ -3,7 +3,7 @@ namespace App\Models;
 
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 /**
-* Descripción: 
+* Descripción: Modelo para consultar los registros de visita al curso seleccionado
 * Autor: Oscar David Castañeda Rivera
 * Fecha: 16/03/2021
 */
