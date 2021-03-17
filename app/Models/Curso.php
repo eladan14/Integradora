@@ -4,7 +4,7 @@ namespace App\Models;
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 /**
 * Descripción: Administración de Cursos
-* Funcionalidades: Ingresar o Ver Curso
+* Funcionalidades: Ingresar o Ver Curso, Listar Cursos 
 * Autor: Oscar David Castañeda Rivera
 * Fecha: 16/03/2021
 */
