@@ -15,8 +15,9 @@ class User extends Authenticatable
      * The attributes that are mass assignable.
      *Autor: Brayan Mares Bueno
      * Jorge Perez Magallon
-     *Descripción:Modelo para  registrar usuarios.
+     *Descripción:Modelo para guardar los usuarios.
      *Jorge: Modelo que se utilizo para iniciar sesión.
+     *Funcionalidad: Registrar participante.
      *Fecha: 17-03-2021
      * @var array
      */
