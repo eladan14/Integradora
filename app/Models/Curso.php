@@ -3,7 +3,8 @@ namespace App\Models;
 
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 /**
-* Descripción: Modelo para consultar los cursos registrados
+* Descripción: Administración de Cursos
+* Funcionalidades: Ingresar o Ver Curso
 * Autor: Oscar David Castañeda Rivera
 * Fecha: 16/03/2021
 */
