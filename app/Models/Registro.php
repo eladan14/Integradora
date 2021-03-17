@@ -3,7 +3,8 @@ namespace App\Models;
 
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 /**
-* Descripción: Modelo para consultar los registros de visita al curso seleccionado
+* Descripción: Administración del registro al ingresar a algún curso
+* Funcionalidad: Ver y/o editar el registro que tiene cada participante de cada curso
 * Autor: Oscar David Castañeda Rivera
 * Fecha: 16/03/2021
 */
