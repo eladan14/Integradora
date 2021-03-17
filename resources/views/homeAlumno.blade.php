@@ -33,7 +33,7 @@
           <p class="card-text lenguage">{{$curso->inicio}}</p>
           <p class="card-text">{{$curso->fin}}</p>
           <form action="" method="post">
-            <a class="btn btn-warning btn-sm" href="{{route('verCurso',$curso->_id,$curso->)}}">Ver curso..</a>
+            <a class="btn btn-warning btn-sm" href="{{route('verCurso',$curso->_id)}}">Ver curso..</a>
           </form>
         </div>
       </div>
