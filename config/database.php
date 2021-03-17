@@ -38,7 +38,7 @@ return [
             'driver' => 'mongodb',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', 27017),
-            'dsn' => 'mongodb+srv://Brayan:mares123@cluster0.vrjgf.mongodb.net/OurNotes?retryWrites=true&w=majority',
+            'dsn' => 'mongodb+srv://GDS0252:gds123@cluster0.vrjgf.mongodb.net/OurNotes?retryWrites=true&w=majority',
             'database' => env('DB_DATABASE', ''),
             'username' => env('DB_USERNAME', ''),
             'password' => env('DB_PASSWORD', ''),
