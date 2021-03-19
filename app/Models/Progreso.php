@@ -17,6 +17,11 @@ use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 * Funcionalidad: Consultar porcentaje del curso para generar constancia.
 * Autor:Isaac Gamaliel Muñiz Amaro
 * Fecha:17/03/2021
+
+* Descripción: Ver el progreso de cada curso en la pantalla principal del estudiante.
+* Funcionalidad: Consultar el progreso de cada alumno en el curso.
+* Autor:Lopez Cortes Adan
+* Fecha:18/03/2021
 */
 
 class Progreso extends Eloquent{
